@@ -73,7 +73,7 @@ sudo ./make.sh remove
 
 ---
 
-## 🖥️ Komut Satırı Kullanımı
+## Komut Satırı Kullanımı
 
 `byedpictl` komutlarının tamamını kullanabilirsiniz:
 
