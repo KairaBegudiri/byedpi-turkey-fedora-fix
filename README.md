@@ -1,6 +1,6 @@
-# byedpi-turkey
+# ByeDPI TR Fedora Fix
 
-Linux için kullanıcı dostu **GoodbyeDPI-Turkey alternatifi**.
+Linux için ByeDPI TR'nin Fedora'ya yönelik düzenlenmiş versiyonu.
 
 Arkaplanda aşağıdaki araçları kullanır:
 
@@ -11,14 +11,12 @@ Arkaplanda aşağıdaki araçları kullanır:
 
 ---
 
-### 🐧 **Test Edilen Ortamlar**  
+### **Test Edilen Ortamlar**  
 | Ortam       | Durum                          |
 |-------------|--------------------------------|
-| Fedora      | Çalışıyor ✅                   |
-| Arch Linux  | Çalışıyor ✅                   |
-| Ubuntu      | Çalışmıyor ❌, Destek eklenecek |
+| Fedora 42      | Çalışıyor ✅                   |
 
-### 📡 **Test Edilen ISS'ler**  
+### **Test Edilen ISS'ler**  
 | Sağlayıcı    | Profil       | Durum |
 |--------------|-------------|--------------|
 | Türk Telekom | ``varsayilan-profil`` | Çalışıyor ✅
@@ -26,13 +24,13 @@ Arkaplanda aşağıdaki araçları kullanır:
 
 ---
 
-## ⚠️ Yasal Uyarı
+## Yasal Uyarı
 
 Bu uygulamanın kullanımından doğan her türlü yasal sorumluluk kullanan kişiye aittir. Uygulama yalnızca eğitim ve araştırma amaçları ile yazılmış ve düzenlenmiş olup; bu uygulamayı bu şartlar altında kullanmak ya da kullanmamak kullanıcının kendi seçimidir. Açık kaynak kodlarının paylaşıldığı bu platformdaki düzenlenmiş bu proje, bilgi paylaşımı ve kodlama eğitimi amaçları ile yazılmış ve düzenlenmiştir.
 
 ---
 
-## 📌 Notlar
+## Notlar
 
 * **Ubuntu/Debian desteği (6 Eylül itibariyle) kaldırılmıştır.**
   Bunun sebebi, `dnscrypt-proxy`’nin apt ile gelen sürümünün Fedora ve Arch'a kıyasla farklı çalışmasıdır.
@@ -40,19 +38,17 @@ Bu uygulamanın kullanımından doğan her türlü yasal sorumluluk kullanan ki�
 
 ---
 
-## 🚀 Kurulum
+## Kurulum
 GitHub üzerinden repo'yu uygun konuma klonlayın.
 ```bash
-curl -fsSL https://raw.githubusercontent.com/elrondforwin/byedpi-turkey/refs/heads/master/curl.sh | bash
-```
-Kurulum betiğini çalıştırın.
-```bash
-cd ~/.local/share/byedpi-turkey && ./kurulum.sh
+git clone https://github.com/KairaBegudiri/byedpi-turkey-fedora-fix
+cd byedpi-turkey-fedora-fix
+sudo sh curl.sh && sudo sh kurulum.sh
 ```
 
 ---
 
-## 🗑️ Kaldırma
+## Kaldırma
 Daha önce klonlanmış konumdan ``kaldir.sh`` betiğini çalıştırın.
 ```bash
 bash ~/.local/share/byedpi-turkey/kaldir.sh
@@ -67,7 +63,7 @@ sudo ./make.sh remove
 
 ---
 
-## ❓ Sık Karşılaşılan Sorunlar
+## Sık Karşılaşılan Sorunlar
 
 | Sorun | Çözüm |
 | --- | --- |
@@ -102,12 +98,4 @@ CIADPI_DESYNC=(
     "--param1=value1" "--param2=value2" #...
 )
 ```
-
----
-
-## Katkılar ve İlham
-
-* [Kurulum rehberi](https://www.youtube.com/watch?v=i5RUTG67aoM) – yöntemi öğrenmemi sağladı.
-* [GoodbyeDPI-Turkey](https://github.com/cagritaskn/GoodbyeDPI-Turkey) – ilham kaynağı.
-* [byedpictl](https://github.com/maximilionus/byedpictl) – orijinal proje.
   
