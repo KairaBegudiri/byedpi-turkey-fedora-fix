@@ -32,9 +32,8 @@ Bu uygulamanın kullanımından doğan her türlü yasal sorumluluk kullanan ki�
 
 ## Notlar
 
-* **Ubuntu/Debian desteği (6 Eylül itibariyle) kaldırılmıştır.**
-  Bunun sebebi, `dnscrypt-proxy`’nin apt ile gelen sürümünün Fedora ve Arch'a kıyasla farklı çalışmasıdır.
-* Her türlü **Pull Request**’e açığım.
+* **Yalnızca Fedora'yı destekler.**
+  Orjinal projenin de Fedora desteği olsa da bu desteğin hiç stabil olmadığını ve epey sorunlu olduğunu fark ettik. Yapmış olduğumuz bu proje yalnızca Fedora'ya yöneliktir.
 
 ---
 
