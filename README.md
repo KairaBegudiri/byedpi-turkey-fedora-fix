@@ -16,9 +16,12 @@ Arkaplanda aşağıdaki araçları kullanır:
 |-------------|--------------------------------|
 | Fedora 42      | Çalışıyor ✅                   |
 | OpenSUSE      | ⚠️ Bu sürüm çalışıyor olsa da deneyseldir. ⚠️ |
+| Arch Linux | Planlandı |
 | Gentoo      | Planlandı |
 | NixOS      | Planlandı                   |
-| OpenMandriva | Planlandı |
+| Mandriva | Planlandı |
+| MacOS | Planlandı, kod tabanı baştan yapıldıktan sonrasına planlı |
+| FreeBSD | Planlandı, kod tabanı baştan yapıldıktan sonrasına planlı |
 
 ### **Test Edilen ISS'ler**  
 | Sağlayıcı    | Profil       | Durum |
