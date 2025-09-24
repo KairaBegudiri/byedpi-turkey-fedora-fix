@@ -1,6 +1,6 @@
-# ByeDPI TR Fedora Fix
+# ByeDPI TR Fix
 
-Linux için ByeDPI TR'nin Fedora'ya yönelik düzenlenmiş versiyonu.
+Linux için ByeDPI TR'nin düzenlenmiş versiyonu.
 
 Arkaplanda aşağıdaki araçları kullanır:
 
