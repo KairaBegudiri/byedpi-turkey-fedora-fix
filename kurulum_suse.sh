@@ -91,7 +91,7 @@ set_active_dns() {
   if command -v nmcli &> /dev/null; then
     aktif_ag=$(nmcli -t -f NAME connection show --active | head -n1)
     if [[ -n "$aktif_ag" ]]; then
-      nmcli connection modify "$aktif_ag" ipv4.dns "127.0.0.1"
+      nmcli connection modify "$aktif_ag" ipv4.dns "1.1.1.1"
       nmcli connection modify "$aktif_ag" ipv4.ignore-auto-dns yes
       nmcli connection down "$aktif_ag" 2>/dev/null || true
       sleep 1
