@@ -46,7 +46,7 @@ Linux için ByeDPI TR'nin düzenlenmiş versiyonu.
 * **Resmi desteğimiz Fedora üzerinedir.**
   Orjinal projenin de Fedora desteği olsa da bu desteğin hiç stabil olmadığını ve epey sorunlu olduğunu fark ettik. Yapmış olduğumuz bu proje yalnızca Fedora'ya yöneliktir.
 * **OpenSUSE/Gentoo/NixOS/OpenMandriva desteği**
-* Bu sürümler deneyseldir. Odak noktamız olmasalar da onları da destekliyoruz.
+Bu sürümler deneyseldir. Odak noktamız olmasalar da onları da destekliyoruz.
 
 ---
 
