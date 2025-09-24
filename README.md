@@ -15,6 +15,7 @@ Arkaplanda aşağıdaki araçları kullanır:
 | Ortam       | Durum                          |
 |-------------|--------------------------------|
 | Fedora 42      | Çalışıyor ✅                   |
+| OpenSUSE      | ⚠️Deneyseldir, bir çok hata ile karşılaşmanız olası⚠️                   |
 
 ### **Test Edilen ISS'ler**  
 | Sağlayıcı    | Profil       | Durum |
