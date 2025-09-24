@@ -66,19 +66,6 @@ sudo sh curl.sh && sudo sh kurulum_suse.sh
 ```
 ---
 
-## Kaldırma
-Daha önce klonlanmış konumdan ``kaldir.sh`` betiğini çalıştırın.
-```bash
-bash ~/.local/share/byedpi-turkey/kaldir.sh
-```
-
-Eğer kaldırma scripti çalışmazsa:
-
-```bash
-cd ~/.local/share/byedpi-turkey
-sudo ./make.sh remove
-```
-
 ---
 
 ## Sık Karşılaşılan Sorunlar
@@ -89,6 +76,7 @@ sudo ./make.sh remove
 ```sh
 su -
 echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+exit
 ```
 Bu adımlardan sonra rahatlıkla kullanmaya devam edebilirsiniz.
 
