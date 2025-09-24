@@ -11,12 +11,16 @@ Linux için ByeDPI TR'nin düzenlenmiş versiyonu.
 | OpenSUSE      | ⚠️ Bu sürüm çalışıyor olsa da deneyseldir. ⚠️ |
 
 ### Yakın Vakitte Eklemeyi Planladıklarımız
-| Arch Linux | Planlandı |
-| Gentoo      | Planlandı |
-| NixOS      | Planlandı                   |
-| Mandriva | Planlandı |
+| Dağıtım    | Durum       | Tarih |
+|--------------|-------------|--------------|
+| Arch Linux | Planlandı | Ekim
+| Gentoo      | Planlandı | X 
+| NixOS      | Planlandı | X 
+| Mandriva | Planlandı | X
 
 ### Uzun Zaman Sonrası İçin Planlı
+| İşletim Sistemi    | Durum       | Tarih |
+|--------------|-------------|--------------|
 | MacOS | Planlandı | kod tabanı baştan yapıldıktan sonrasına planlı
 | FreeBSD | Planlandı | kod tabanı baştan yapıldıktan sonrasına planlı
 | QUNICS | Planlandı | kod tabanı baştan yapıldıktan sonrasına planlı
