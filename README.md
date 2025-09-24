@@ -17,7 +17,7 @@ Arkaplanda aşağıdaki araçları kullanır:
 | Fedora 42      | Çalışıyor ✅                   |
 | OpenSUSE      | ⚠️ Bu sürüm çalışıyor olsa da deneyseldir. ⚠️ |
 | Gentoo      | Planlandı |
-| Nixos      | Planlandı                   |
+| NixOS      | Planlandı                   |
 
 ### **Test Edilen ISS'ler**  
 | Sağlayıcı    | Profil       | Durum |
