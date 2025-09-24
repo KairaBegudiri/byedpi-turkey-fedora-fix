@@ -2,26 +2,24 @@
 
 Linux için ByeDPI TR'nin düzenlenmiş versiyonu.
 
-Arkaplanda aşağıdaki araçları kullanır:
-
-* [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
-* [byedpictl](https://github.com/maximilionus/byedpictl)
-* [byedpi](https://github.com/hufrea/byedpi)
-* [hev-socks5-tunnel](https://github.com/heiher/hev-socks5-tunnel)
-
 ---
 
-### **Test Edilen Ortamlar**  
-| Ortam       | Durum                          |
+### **Dağıtım Durumları**  
+| Dağıtım       | Durum                          |
 |-------------|--------------------------------|
 | Fedora 42      | Çalışıyor ✅                   |
 | OpenSUSE      | ⚠️ Bu sürüm çalışıyor olsa da deneyseldir. ⚠️ |
+
+### Yakın Vakitte Eklemeyi Planladıklarımız
 | Arch Linux | Planlandı |
 | Gentoo      | Planlandı |
 | NixOS      | Planlandı                   |
 | Mandriva | Planlandı |
-| MacOS | Planlandı, kod tabanı baştan yapıldıktan sonrasına planlı |
-| FreeBSD | Planlandı, kod tabanı baştan yapıldıktan sonrasına planlı |
+
+### Uzun Zaman Sonrası İçin Planlı
+| MacOS | Planlandı | kod tabanı baştan yapıldıktan sonrasına planlı
+| FreeBSD | Planlandı | kod tabanı baştan yapıldıktan sonrasına planlı
+| QUNICS | Planlandı | kod tabanı baştan yapıldıktan sonrasına planlı
 
 ### **Test Edilen ISS'ler**  
 | Sağlayıcı    | Profil       | Durum |
@@ -32,7 +30,7 @@ Arkaplanda aşağıdaki araçları kullanır:
 ---
 
 ## Yasal Uyarı
-* Proje GPL-v3 olarak yeniden lisanslanmıştır.
+* Proje GPL-v3 olarak yeniden lisanslanmıştır. Yapacağınız fork ve çalışmaların bu lisansa uygun olduğundan emin olun.
 
 * Bu uygulamanın kullanımından doğan her türlü yasal sorumluluk kullanan kişiye aittir. Uygulama yalnızca eğitim ve araştırma amaçları ile yazılmış ve düzenlenmiş olup; bu uygulamayı bu şartlar altında kullanmak ya da kullanmamak kullanıcının kendi seçimidir. Açık kaynak kodlarının paylaşıldığı bu platformdaki düzenlenmiş bu proje, bilgi paylaşımı ve kodlama eğitimi amaçları ile yazılmış ve düzenlenmiştir.
 
@@ -90,6 +88,13 @@ echo "nameserver 1.1.1.1" >> /etc/resolv.conf
 Bu adımlardan sonra rahatlıkla kullanmaya devam edebilirsiniz.
 
 ---
+
+## Arkaplanda aşağıdaki araçları kullanır:
+
+* [dnscrypt-proxy](https://github.com/DNSCrypt/dnscrypt-proxy)
+* [byedpictl](https://github.com/maximilionus/byedpictl)
+* [byedpi](https://github.com/hufrea/byedpi)
+* [hev-socks5-tunnel](https://github.com/heiher/hev-socks5-tunnel)
 
 ## Komut Satırı Kullanımı
 
