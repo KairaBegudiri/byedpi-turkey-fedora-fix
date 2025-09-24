@@ -68,6 +68,13 @@ sudo ./make.sh remove
 
 Henüz Fedora sürümü için hata ile karşılaşmadık.
 
+OpenSUSE (veya tabanlı bir dağıtım) kullanıyorsanız DNS ile ilgili sorun yaşama ihtimalinizden ötürü internete erişiminizi cihazınızda kaybetme şansınız var. Bu durumda aşağıdaki adımları takip edin:
+```sh
+su -
+echo "nameserver 1.1.1.1" >> /etc/resolv.conf
+```
+Bu adımlardan sonra rahatlıkla kullanmaya devam edebilirsiniz.
+
 ---
 
 ## Komut Satırı Kullanımı
