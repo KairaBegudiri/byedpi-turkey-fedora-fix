@@ -18,6 +18,7 @@ Arkaplanda aşağıdaki araçları kullanır:
 | OpenSUSE      | ⚠️ Bu sürüm çalışıyor olsa da deneyseldir. ⚠️ |
 | Gentoo      | Planlandı |
 | NixOS      | Planlandı                   |
+| OpenMandriva | Planlandı |
 
 ### **Test Edilen ISS'ler**  
 | Sağlayıcı    | Profil       | Durum |
@@ -38,7 +39,7 @@ Arkaplanda aşağıdaki araçları kullanır:
 
 * **Resmi desteğimiz Fedora üzerinedir.**
   Orjinal projenin de Fedora desteği olsa da bu desteğin hiç stabil olmadığını ve epey sorunlu olduğunu fark ettik. Yapmış olduğumuz bu proje yalnızca Fedora'ya yöneliktir.
-* **OpenSUSE/Gentoo/NixOS desteği**
+* **OpenSUSE/Gentoo/NixOS/OpenMandriva desteği**
 * Bu sürümler deneyseldir. Odak noktamız olmasalar da onları da destekliyoruz.
 
 ---
