@@ -4,7 +4,8 @@ Linux için ByeDPI TR'nin düzenlenmiş versiyonu.
 
 ---
 
-### **Dağıtım Durumları**  
+## **Dağıtım Durumları**  
+### Aktif
 | Dağıtım       | Durum                          |
 |-------------|--------------------------------|
 | Fedora 42      | Çalışıyor ✅                   |
