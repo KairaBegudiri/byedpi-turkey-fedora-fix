@@ -15,7 +15,9 @@ Arkaplanda aşağıdaki araçları kullanır:
 | Ortam       | Durum                          |
 |-------------|--------------------------------|
 | Fedora 42      | Çalışıyor ✅                   |
-| OpenSUSE      | ⚠️Deneyseldir, bir çok hata ile karşılaşmanız olası⚠️                   |
+| OpenSUSE      | ⚠️ Bu sürüm çalışıyor olsa da deneyseldir. ⚠️ |
+| Gentoo      | Planlandı |
+| Nixos      | Planlandı                   |
 
 ### **Test Edilen ISS'ler**  
 | Sağlayıcı    | Profil       | Durum |
@@ -34,19 +36,27 @@ Arkaplanda aşağıdaki araçları kullanır:
 
 ## Notlar
 
-* **Yalnızca Fedora'yı destekler.**
+* **Resmi desteğimiz Fedora üzerinedir.**
   Orjinal projenin de Fedora desteği olsa da bu desteğin hiç stabil olmadığını ve epey sorunlu olduğunu fark ettik. Yapmış olduğumuz bu proje yalnızca Fedora'ya yöneliktir.
+* **OpenSUSE/Gentoo/NixOS desteği**
+* Bu sürümler deneyseldir. Odak noktamız olmasalar da onları da destekliyoruz.
 
 ---
 
 ## Kurulum
 GitHub üzerinden repo'yu uygun konuma klonlayın.
+### Fedora
 ```bash
 git clone https://github.com/KairaBegudiri/byedpi-turkey-fedora-fix
 cd byedpi-turkey-fedora-fix
 sudo sh curl.sh && sudo sh kurulum.sh
 ```
-
+### SUSE Linux
+```bash
+git clone https://github.com/KairaBegudiri/byedpi-turkey-fedora-fix
+cd byedpi-turkey-fedora-fix
+sudo sh curl.sh && sudo sh kurulum_suse.sh
+```
 ---
 
 ## Kaldırma
