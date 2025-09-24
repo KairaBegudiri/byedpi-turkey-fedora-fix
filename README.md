@@ -66,9 +66,9 @@ sudo ./make.sh remove
 
 ## Sık Karşılaşılan Sorunlar
 
-Henüz Fedora sürümü için hata ile karşılaşmadık.
+* Henüz Fedora sürümü için hata ile karşılaşmadık.
 
-OpenSUSE (veya tabanlı bir dağıtım) kullanıyorsanız DNS ile ilgili sorun yaşama ihtimalinizden ötürü internete erişiminizi cihazınızda kaybetme şansınız var. Bu durumda aşağıdaki adımları takip edin:
+* OpenSUSE (veya tabanlı bir dağıtım) kullanıyorsanız DNS ile ilgili sorun yaşama ihtimalinizden ötürü internete erişiminizi cihazınızda kaybetme şansınız var. Bu durumda aşağıdaki adımları takip edin:
 ```sh
 su -
 echo "nameserver 1.1.1.1" >> /etc/resolv.conf
