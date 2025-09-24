@@ -14,8 +14,8 @@ Linux için ByeDPI TR'nin düzenlenmiş versiyonu.
 ### Yakın Vakitte Eklemeyi Planladıklarımız
 | Dağıtım    | Durum       | Tarih |
 |--------------|-------------|--------------|
-| Arch Linux | Planlandı | Ekim
-| Gentoo      | Planlandı | X 
+| Arch Linux | Planlandı | 5 Ekim 2025, kararlı sürüm
+| Gentoo      | Planlandı | X
 | NixOS      | Planlandı | X 
 | Mandriva | Planlandı | X
 
